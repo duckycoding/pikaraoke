@@ -1,5 +1,18 @@
 # PiKaraoke
 
+Slight modification to @vicwomg's original to utilize yt-dlp over youtube-dl to bypass the download speed limitation imposed by Youtube.
+
+I didn't make any changes to switch youtube-dl to use yt-dlp so you still need to download yt-dlp:
+
+pip3 install --upgrade yt-dlp
+
+then when launching app.py use launch with switch:
+-v /usr/local/bin/yt-dlp
+
+-------------------------
+
+# PiKaraoke
+
 PiKaraoke is a "KTV"-style karaoke song search and queueing system. It connects to your TV, and shows a QR code for computers and smartphones to connect to a web interface. From there, multiple users can seamlessly search your local track library, queue up songs, add an endless selection of new karaoke tracks from YouTube, and more. Works on Raspberry Pi, OSX, Windows, and Linux!
 
 If you want to support this project with a little monetary tip, it's much appreciated: <br/>

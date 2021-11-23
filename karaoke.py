@@ -426,7 +426,7 @@ class Karaoke:
             output = subprocess.check_output(cmd).decode("utf-8")
             logging.debug("Search results: " + output)
             rc = []
-            video_url_base = "https://www.youtube.com/watch?v="
+            video_url_base = ""
             for each in output.split("\n"):
                 if len(each) > 2:
                     j = json.loads(each)
