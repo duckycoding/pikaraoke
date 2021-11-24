@@ -19,6 +19,7 @@ then when launching app.py use launch with switch:
 
 # Links
 Head to for all the original info: https://github.com/vicwomg/pikaraoke
+
 yt-dlp: https://github.com/yt-dlp/yt-dlp
 
-Many thanks to Vicmong for providing many hours to entertainment to my friends and family.
+Many thanks to Vicmong for providing many hours of entertainment to my friends and family.
