@@ -1,12 +1,24 @@
 # PiKaraoke
 
-Slight modification to @vicwomg's original to utilize yt-dlp over youtube-dl to bypass the download speed limitation imposed by Youtube.
+PiKaraoke with a minor personal tweak.
 
-I didn't make any changes to switch youtube-dl to use yt-dlp so you still need to download yt-dlp:
+# Changes
+- Minor change to accomodate using yt-dlp over youtube-dl for faster downloading purposes
+- Moved the 'Include non-karaoke matches' out of the advance menu
+
+# How-to
+Given that these are minor changes you'll still download yt-dlp to get things going.
 
 pip3 install --upgrade yt-dlp
 
 then when launching app.py use launch with switch:
--v /usr/local/bin/yt-dlp
+-y /usr/local/bin/yt-dlp
 
-Head to https://github.com/vicwomg/pikaraoke for all the info.
+# Bugs
+- Updating yt-dlp doesn't work using the menu (for obvious reasons) 
+
+# Links
+Head to for all the original info: https://github.com/vicwomg/pikaraoke
+yt-dlp: https://github.com/yt-dlp/yt-dlp
+
+Many thanks to Vicmong for providing many hours to entertainment to my friends and family.
