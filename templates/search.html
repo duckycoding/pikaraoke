@@ -292,12 +292,18 @@
         </div>
         <input class="song-added-by" type="hidden" name="song-added-by" />
       </div>
+	  
       <div class="control has-text-right">
         
         <label class="checkbox is-size-7">
           <input type="checkbox" id="show-advanced" name="show-advanced">
-          Advanced
+          Advanced&nbsp;&nbsp;
         </label>
+		<label class="checkbox is-size-7">
+          <input type="checkbox" id="include-non-karaoke" name="include-non-karaoke" checked>
+          Include non-karaoke matches
+        </label>
+      </div>
       </div>
       
       <div>
@@ -313,12 +319,6 @@
 
   <div>
     <div id="advanced-settings" class="box has-background-black-bis" style="margin-top: 10px">
-      <div class="control">
-        <label class="checkbox">
-          <input type="checkbox" id="include-non-karaoke" name="include-non-karaoke">
-          Include non-karaoke matches
-        </label>
-      </div>
       <hr>
       <div class="control">
         <div class="label">Direct download YouTube url: </div>
